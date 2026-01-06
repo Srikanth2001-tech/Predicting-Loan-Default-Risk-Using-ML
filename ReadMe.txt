@@ -5,7 +5,7 @@ This project demonstrates how machine learning models can be applied to predict 
 
 ## **Research Questions**
 1. How can we predict the default risk of a borrower based on socio-economic and financial features using machine learning models?
-2. Which machine learning algorithms (Logistic Regression, Random Forest, XGBoost) work best for classifying the default risk of borrowers?
+2. Which machine learning algorithms (Logistic Regression, KNN, XGBoost) work best for classifying the default risk of borrowers?
 3. What are the most important features that determine loan default risk?
 
 ## **Dataset Details**
@@ -28,11 +28,11 @@ This project demonstrates how machine learning models can be applied to predict 
    - Categorical variables are encoded numerically, and missing values are handled.
    - Features such as **credit amount**, **employment duration**, and **purpose** are used to train the models.
 3. **Model Training:**
-   - **Logistic Regression**, **Random Forest**, and **XGBoost** models are trained to predict the credit risk.
+   - **Logistic Regression**, **KNN**, and **XGBoost** models are trained to predict the credit risk.
 4. **Model Evaluation:**
    - The models' performances are evaluated using accuracy, precision, recall, F1-score, and ROC-AUC.
    - **Confusion Matrix** and **Classification Report** are generated for model comparison.
-5. **Hyperparameter Tuning:** GridSearchCV is used to fine-tune the hyperparameters for Random Forest and XGBoost.
+5. **Hyperparameter Tuning:** GridSearchCV is used to fine-tune the hyperparameters for KNN and XGBoost.
 6. **Final Model Selection:** Based on performance metrics, the best performing model is selected.
 
 ## **How to Run the Notebook**
@@ -46,7 +46,7 @@ This project demonstrates how machine learning models can be applied to predict 
 5. Execute all the cells to perform data preprocessing, model training, and evaluation.
 
 ## **Results**
-This project compares multiple machine learning models for predicting loan default risk. The **Random Forest** and **XGBoost** models provide strong performance in terms of accuracy, precision, recall, and ROC-AUC. **Feature importance** is analyzed to identify the key factors influencing the default risk prediction.
+This project compares multiple machine learning models for predicting loan default risk. The **KNN** and **XGBoost** models provide strong performance in terms of accuracy, precision, recall, and ROC-AUC. **Feature importance** is analyzed to identify the key factors influencing the default risk prediction.
 
 ## **Contributions**
 Feel free to contribute by:
